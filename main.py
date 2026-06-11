@@ -52,6 +52,14 @@ app.add_middleware(
 
 app.include_router(router)
 
+@app.get("/")
+async def root():
+    return {
+        "message": "NexusHQ Sales Agent API is running",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request, exc):
