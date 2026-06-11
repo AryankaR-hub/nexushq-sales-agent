@@ -1,0 +1,123 @@
+{
+  "company": "NexusHQ",
+  "tagline": "The all-in-one B2B operations platform",
+  "plans": [
+    {
+      "name": "Starter",
+      "price": "$49/mo",
+      "annual_price": "$39/mo (billed annually)",
+      "features": [
+        "5 users",
+        "API access",
+        "Email support",
+        "1GB storage",
+        "Basic analytics dashboard",
+        "CSV export",
+        "Standard integrations (Slack, Gmail)"
+      ],
+      "limits": {
+        "api_calls_per_month": 10000,
+        "data_retention_days": 30
+      },
+      "ideal_for": "Early-stage startups and small teams"
+    },
+    {
+      "name": "Growth",
+      "price": "$199/mo",
+      "annual_price": "$159/mo (billed annually)",
+      "features": [
+        "25 users",
+        "API access",
+        "Webhooks",
+        "Priority support (< 4hr SLA)",
+        "10GB storage",
+        "Advanced analytics & custom reports",
+        "CSV + PDF export",
+        "All standard integrations",
+        "Zapier integration",
+        "Role-based access control (RBAC)",
+        "Custom branding"
+      ],
+      "limits": {
+        "api_calls_per_month": 100000,
+        "data_retention_days": 90
+      },
+      "ideal_for": "Growing teams that need automation and deeper reporting"
+    },
+    {
+      "name": "Enterprise",
+      "price": "$499/mo",
+      "annual_price": "Custom pricing available",
+      "features": [
+        "Unlimited users",
+        "API access",
+        "Webhooks",
+        "SSO (SAML 2.0 / OIDC)",
+        "Audit logs",
+        "Dedicated support manager",
+        "99.9% uptime SLA",
+        "Unlimited storage",
+        "Full analytics suite",
+        "All export formats",
+        "All integrations + custom integrations",
+        "HIPAA & SOC 2 Type II compliance",
+        "Advanced RBAC + IP allowlisting",
+        "On-premise deployment option",
+        "Quarterly business reviews (QBR)"
+      ],
+      "limits": {
+        "api_calls_per_month": "Unlimited",
+        "data_retention_days": 365
+      },
+      "ideal_for": "Enterprises needing compliance, scale, and white-glove support"
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Extra Storage",
+      "price": "$10/mo per 10GB"
+    },
+    {
+      "name": "Additional Users (Starter only)",
+      "price": "$8/user/mo"
+    },
+    {
+      "name": "Priority Onboarding",
+      "price": "$299 one-time"
+    },
+    {
+      "name": "Custom Integration Development",
+      "price": "Starting at $1,500"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is there a free trial?",
+      "answer": "Yes — all plans include a 14-day free trial. No credit card required."
+    },
+    {
+      "question": "Can I switch plans?",
+      "answer": "Yes, you can upgrade or downgrade at any time. Upgrades are prorated immediately; downgrades take effect at the next billing cycle."
+    },
+    {
+      "question": "Do you offer discounts for nonprofits?",
+      "answer": "Yes, we offer 30% off for registered nonprofits. Contact sales@nexushq.io."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit cards, ACH bank transfer, and wire transfer for annual Enterprise contracts."
+    },
+    {
+      "question": "Is my data secure?",
+      "answer": "All data is encrypted at rest (AES-256) and in transit (TLS 1.3). Enterprise plans include SOC 2 Type II and HIPAA compliance."
+    },
+    {
+      "question": "What does SSO include?",
+      "answer": "SSO on Enterprise supports SAML 2.0 and OIDC, compatible with Okta, Azure AD, Google Workspace, and any standards-compliant IdP."
+    },
+    {
+      "question": "What is the refund policy?",
+      "answer": "We offer a 30-day money-back guarantee for monthly plans. Annual plans are non-refundable but can be credited."
+    }
+  ]
+}
